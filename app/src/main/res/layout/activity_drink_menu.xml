@@ -88,14 +88,14 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="38dp"
+            android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
-            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
+            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -135,14 +135,14 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="38dp"
+            android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
-            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
+            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
     </androidx.cardview.widget.CardView>
 
@@ -184,14 +184,14 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="38dp"
+            android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
-            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
+            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
 
 
@@ -234,14 +234,14 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="38dp"
+            android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
-            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
+            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp"/>
+            android:textSize="17sp" />
 
 
 
