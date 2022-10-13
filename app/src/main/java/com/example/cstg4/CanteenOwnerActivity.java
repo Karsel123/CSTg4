@@ -23,6 +23,9 @@ import com.google.android.material.tabs.TabLayout;
 public class CanteenOwnerActivity extends AppCompatActivity {
 //hello
 //jda
+    public class intent(){
+
+}
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
