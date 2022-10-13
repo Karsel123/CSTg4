@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!---->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView_0"
+                android:layout_width="220dp"
+                android:layout_height="52dp"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                android:text="Add Items"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="22sp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_0"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/menubutton"
+                android:text="Daily Menu"
+                android:textSize="22sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Add" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_2"
+                android:layout_width="181dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/menubutton"
+                android:text="Stationary"
+                android:textSize="22sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Add" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_4"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="250dp"
+                android:background="@drawable/menubutton"
+                android:text="Grocery"
+                android:textSize="22sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Add" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_6"
+                android:layout_width="179dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/menubutton"
+                android:text="Drinks"
+                android:textSize="22sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Add" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

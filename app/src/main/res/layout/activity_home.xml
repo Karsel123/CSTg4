@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black" >
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="413dp"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="85dp"
+            android:layout_height="61dp"
+            app:srcCompat="@drawable/c"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="7dp" />
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="300dp"
+            android:background="@drawable/ic_baseline_person_24"
+            android:backgroundTint="#FFFFFF"/>
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="350dp"
+            android:background="@drawable/ic_baseline_menu_24"
+            android:backgroundTint="#FFFFFF"/>
+    </com.google.android.material.navigation.NavigationView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sec"
+        android:layout_width="399dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigationView">
+
+        <ImageView
+            android:id="@+id/first"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/a" />
+
+        <TextView
+            android:id="@+id/gos"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="80dp"
+            android:text="Daily Menu"
+            android:textAlignment="center"
+            android:textColor="#120B0B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/drink"
+        android:layout_width="399dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigationView">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/b" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="80dp"
+            android:text="Drinks"
+            android:textAlignment="center"
+            android:textColor="#120B0B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stationary"
+        android:layout_width="399dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="320dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigationView">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/d" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="80dp"
+            android:text="Stationary"
+            android:textAlignment="center"
+            android:textColor="#120B0B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/grocery"
+        android:layout_width="399dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="460dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigationView">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/e" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_marginTop="80dp"
+            android:text="Grocery"
+            android:textAlignment="center"
+            android:textColor="#120B0B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
