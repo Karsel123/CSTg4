@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".DrinkMenu"
     android:background="@color/black">
 
     <com.google.android.material.navigation.NavigationView
@@ -17,18 +17,20 @@
         android:background="@color/black">
 
         <ImageView
-            android:layout_width="53dp"
-            android:layout_height="59dp"
+            android:id="@+id/profile"
+            android:layout_width="43dp"
+            android:layout_height="41dp"
             android:layout_marginStart="300dp"
             android:background="@drawable/ic_baseline_person_24"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF" />
 
         <ImageView
-            android:layout_width="41dp"
-            android:layout_height="58dp"
+            android:id="@+id/menu"
+            android:layout_width="39dp"
+            android:layout_height="48dp"
             android:layout_marginStart="355dp"
             android:background="@drawable/ic_baseline_menu_24"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -65,14 +67,14 @@
             android:id="@+id/imageView2"
             android:layout_width="172dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/m" />
+            app:srcCompat="@drawable/cola" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="270dp"
             android:layout_marginTop="20dp"
-            android:text="Veg Momo"
+            android:text="Coca Cola"
             android:textSize="19sp"
             android:textStyle="bold"
             android:textColor="#FFFFFF"/>
@@ -88,14 +90,14 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="48dp"
+            android:layout_height="38dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
+            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
-            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp" />
+            android:textSize="17sp"/>
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -112,14 +114,14 @@
             android:id="@+id/imageView4"
             android:layout_width="139dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/n" />
+            app:srcCompat="@drawable/diet" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="270dp"
             android:layout_marginTop="20dp"
-            android:text="Chowmein"
+            android:text="diet coke"
             android:textSize="19sp"
             android:textStyle="bold"
             android:textColor="#FFFFFF"/>
@@ -129,20 +131,20 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="280dp"
             android:layout_marginTop="40dp"
-            android:text="Nu 30"
+            android:text="Nu 60"
             android:textSize="18sp"
             android:textColor="#FFFFFF"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="48dp"
+            android:layout_height="38dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
+            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
-            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp" />
+            android:textSize="17sp"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -161,12 +163,12 @@
             android:id="@+id/imageView6"
             android:layout_width="182dp"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/p" />
+            app:srcCompat="@drawable/fant" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Koka"
+            android:text="Fanta"
             android:layout_marginStart="280dp"
             android:layout_marginTop="20dp"
             android:textColor="#FFFFFF"
@@ -184,14 +186,14 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="48dp"
+            android:layout_height="38dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
+            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
-            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp" />
+            android:textSize="17sp"/>
 
 
 
@@ -212,14 +214,14 @@
             android:id="@+id/imageView5"
             android:layout_width="152dp"
             android:layout_height="141dp"
-            app:srcCompat="@drawable/o" />
+            app:srcCompat="@drawable/pepsi" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="270dp"
             android:layout_marginTop="20dp"
-            android:text="fried rice"
+            android:text="Pepsi"
             android:textColor="#FFFFFF"
             android:textSize="19sp"
             android:textStyle="bold" />
@@ -234,14 +236,64 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
-            android:layout_height="48dp"
+            android:layout_height="38dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
+            android:text="Add"
             android:background="@drawable/menubutton"
             android:backgroundTint="#3A3B3C"
-            android:text="Add"
             android:textColor="#FFFFFF"
-            android:textSize="17sp" />
+            android:textSize="17sp"/>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="408dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="336dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/navigationView">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="152dp"
+            android:layout_height="141dp"
+            app:srcCompat="@drawable/sprite" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="20dp"
+            android:text="sprite"
+            android:textColor="#FFFFFF"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="40dp"
+            android:text="Nu 50 "
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="70dp"
+            android:text="Add"
+            android:background="@drawable/menubutton"
+            android:backgroundTint="#3A3B3C"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
 
 
 

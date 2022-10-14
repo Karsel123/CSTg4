@@ -1,7 +1,5 @@
 package com.example.cstg4;
 
-import static com.example.cstg4.R.id.tabLayout;
-
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -13,23 +11,63 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.tabs.TabLayout;
 
 public class CanteenOwnerActivity extends AppCompatActivity {
-//hello
-    //yeshi
-    //taphu
+    ImageView img1,img2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_canteen_owner);
+
+
         getIntent();
-        TabLayout tabLayout =(TabLayout) findViewById(R.id.tabLayout);
+
+
+        img1=findViewById(R.id.menu);
+        img1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                PopupMenu popupMenu=new PopupMenu(CanteenOwnerActivity.this,img1);
+                popupMenu.getMenuInflater().inflate(R.menu.mainmenu,popupMenu.getMenu());
+                popupMenu.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
+                    @Override
+                    public boolean onMenuItemClick(MenuItem menuItem) {
+                        Toast.makeText(CanteenOwnerActivity.this,"You Clicked"+menuItem.getTitle(),Toast.LENGTH_LONG).show();
+
+                        if(menuItem.getItemId()==R.id.feed){
+                            Intent ints=new Intent(CanteenOwnerActivity.this, FeedbackActivity.class);
+                            startActivity(ints);
+
+                        }else{
+                            Intent ints=new Intent(CanteenOwnerActivity.this, Customer.class);
+                            startActivity(ints);
+                        }
+                        return true;
+                    }
+                });
+                popupMenu.show();
+            }
+        });
+        img2=findViewById(R.id.profile);
+        img2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i=new Intent(CanteenOwnerActivity.this,LoginActivity2.class);
+                startActivity(i);
+            }
+        });
+
+        TabLayout tabLayout = findViewById(R.id.tabLayout);
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override

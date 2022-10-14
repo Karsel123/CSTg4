@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item android:title="Feedback" />
-    <item android:title="CustomersView" />
-</menu><!---->
+    <item android:title="Feedback"
+        android:id="@+id/feed"/>
+    <item android:title="CustomersView"
+        android:id="@+id/customer"/>
+</menu>
