@@ -30,7 +30,7 @@ public class RegsiterStaffActivity extends AppCompatActivity {
         regisEmail = findViewById(R.id.regisEmail);
         regisPass = findViewById(R.id.regisPass);
 
-        btn=findViewById(R.id.button);
+        btn=findViewById(R.id.reg_Id);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

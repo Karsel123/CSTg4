@@ -62,8 +62,8 @@ public class HomeActivity extends AppCompatActivity {
         btn1=findViewById(R.id.sec);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Intent ints=new Intent(HomeActivity.this, SingleMenu.class);
+            public void onClick(View view){
+                Intent ints=new Intent(HomeActivity.this, Grocery.class);
                 startActivity(ints);
 
 

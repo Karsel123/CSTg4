@@ -36,7 +36,7 @@
         android:layout_marginTop="5dp"
         android:paddingStart="5dp"
         android:paddingTop="10dp"
-        android:text="UserName"
+        android:text="UserId"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -101,7 +101,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/nameId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
@@ -114,18 +114,18 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/deptId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:background="@drawable/button_color"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/nameId"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextPhone"
+        android:id="@+id/contactId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="10dp"
@@ -134,11 +134,11 @@
         android:ems="10"
         android:inputType="phone"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintTop_toBottomOf="@+id/deptId"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/cId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="10dp"
@@ -147,11 +147,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/textView8"
-        app:layout_constraintTop_toBottomOf="@+id/editTextPhone"
+        app:layout_constraintTop_toBottomOf="@+id/contactId"
         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/eId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="10dp"
@@ -160,11 +160,11 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/cId"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/userId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="10dp"
@@ -173,11 +173,11 @@
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/eId"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passId"
         android:layout_width="220dp"
         android:layout_height="45dp"
         android:layout_marginStart="10dp"
@@ -186,11 +186,11 @@
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintStart_toEndOf="@+id/textView5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toBottomOf="@+id/userId"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button"
+        android:id="@+id/reg_Id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
@@ -198,6 +198,6 @@
         android:background="@drawable/login_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
+        app:layout_constraintTop_toBottomOf="@+id/passId" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
