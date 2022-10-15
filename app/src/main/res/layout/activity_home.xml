@@ -54,16 +54,19 @@
             android:id="@+id/first"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/a" />
+            app:srcCompat="@drawable/a"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:id="@+id/gos"
             android:layout_width="match_parent"
             android:layout_height="47dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="85dp"
+            android:alpha=".5"
+            android:background="#1F1E1E"
             android:text="Daily Menu"
             android:textAlignment="center"
-            android:textColor="#120B0B"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
@@ -80,15 +83,18 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/b" />
+            app:srcCompat="@drawable/b"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="47dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="85dp"
+            android:alpha=".5"
+            android:background="#1F1E1E"
             android:text="Drinks"
             android:textAlignment="center"
-            android:textColor="#120B0B"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
@@ -105,15 +111,18 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/d" />
+            app:srcCompat="@drawable/d"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="47dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="85dp"
+            android:alpha=".5"
+            android:background="#1F1E1E"
             android:text="Stationary"
             android:textAlignment="center"
-            android:textColor="#120B0B"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />
     </androidx.cardview.widget.CardView>
@@ -130,17 +139,20 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/e" />
+            app:srcCompat="@drawable/e"
+            android:scaleType="fitXY"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="47dp"
-            android:layout_marginTop="80dp"
+            android:alpha=".5"
+            android:background="#1F1E1E"
             android:text="Grocery"
             android:textAlignment="center"
-            android:textColor="#120B0B"
+            android:textColor="@color/white"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginTop="85dp" />
     </androidx.cardview.widget.CardView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
