@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CSTg4_/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CSTg4_/app/src/main/res/drawable/button_color.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CSTg4_/app/src/main/res/layout/activity_customer.xml" value="0.14175724637681159" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/CSTg4_/app/src/main/res/menu/mainmenu.xml" value="0.2171875" />
         <entry key="..\:/Users/yaphe/AndroidStudioProjects/CSTg4/app/src/main/res/layout/activity_canteen_owner.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/yaphe/AndroidStudioProjects/CSTg4/app/src/main/res/layout/activity_drink_menu.xml" value="0.22418478260869565" />
         <entry key="..\:/Users/yaphe/AndroidStudioProjects/CSTg4/app/src/main/res/layout/activity_register_student.xml" value="0.22418478260869565" />

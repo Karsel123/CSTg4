@@ -67,8 +67,12 @@
             android:id="@+id/imageView2"
             android:layout_width="172dp"
             android:layout_height="match_parent"
+<<<<<<< HEAD
             app:srcCompat="@drawable/books"
             android:scaleType="fitXY"/>
+=======
+            app:srcCompat="@drawable/books" />
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
         <TextView
             android:layout_width="wrap_content"
@@ -86,6 +90,7 @@
             android:layout_marginStart="280dp"
             android:layout_marginTop="40dp"
             android:text="Nu 30"
+<<<<<<< HEAD
             android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
@@ -99,6 +104,21 @@
             android:text="Add"
             android:textColor="#FFFFFF"
             android:textSize="17sp" />
+=======
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="70dp"
+            android:text="Add"
+            android:background="@drawable/menubutton"
+            android:backgroundTint="#3A3B3C"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
@@ -113,10 +133,16 @@
 
         <ImageView
             android:id="@+id/imageView4"
+<<<<<<< HEAD
             android:layout_width="174dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/pens"
             android:scaleType="fitXY"/>
+=======
+            android:layout_width="139dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/pens" />
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
         <TextView
             android:layout_width="wrap_content"
@@ -139,6 +165,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
+<<<<<<< HEAD
             android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
@@ -147,6 +174,16 @@
             android:text="Add"
             android:textColor="#FFFFFF"
             android:textSize="17sp" />
+=======
+            android:layout_height="38dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="70dp"
+            android:text="Add"
+            android:background="@drawable/menubutton"
+            android:backgroundTint="#3A3B3C"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
     </androidx.cardview.widget.CardView>
 
@@ -163,10 +200,16 @@
 
         <ImageView
             android:id="@+id/imageView6"
+<<<<<<< HEAD
             android:layout_width="176dp"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/multicolor"
             android:scaleType="fitXY"/>
+=======
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/multicolor" />
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
         <TextView
             android:layout_width="wrap_content"
@@ -182,6 +225,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="280dp"
+<<<<<<< HEAD
             android:layout_marginTop="40dp"
             android:text="Nu 50"
             android:textColor="#FFFFFF"
@@ -197,6 +241,23 @@
             android:text="Add"
             android:textColor="#FFFFFF"
             android:textSize="17sp" />
+=======
+            android:layout_marginTop="20dp"
+            android:text="Nu 50"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="70dp"
+            android:text="Add"
+            android:background="@drawable/menubutton"
+            android:backgroundTint="#3A3B3C"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
 
 
@@ -215,8 +276,13 @@
 
         <ImageView
             android:id="@+id/imageView5"
+<<<<<<< HEAD
             android:layout_width="178dp"
             android:layout_height="130dp"
+=======
+            android:layout_width="152dp"
+            android:layout_height="141dp"
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
             app:srcCompat="@drawable/mechanical" />
 
         <TextView
@@ -239,6 +305,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
+<<<<<<< HEAD
             android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
@@ -248,6 +315,16 @@
             android:textColor="#FFFFFF"
             android:textSize="17sp"
             tools:ignore="DuplicateClickableBoundsCheck" />
+=======
+            android:layout_height="38dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="70dp"
+            android:text="Add"
+            android:background="@drawable/menubutton"
+            android:backgroundTint="#3A3B3C"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
 
 
@@ -266,9 +343,14 @@
 
         <ImageView
             android:id="@+id/img"
+<<<<<<< HEAD
             android:layout_width="176dp"
             android:layout_height="130dp"
             android:scaleType="fitXY"
+=======
+            android:layout_width="152dp"
+            android:layout_height="141dp"
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
             app:srcCompat="@drawable/colors" />
 
         <TextView
@@ -277,7 +359,10 @@
             android:layout_marginStart="270dp"
             android:layout_marginTop="20dp"
             android:text="Color pencils"
+<<<<<<< HEAD
             android:scaleType="fitXY"
+=======
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
             android:textColor="#FFFFFF"
             android:textSize="19sp"
             android:textStyle="bold" />
@@ -292,6 +377,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="100dp"
+<<<<<<< HEAD
             android:layout_height="48dp"
             android:layout_marginStart="260dp"
             android:layout_marginTop="70dp"
@@ -300,6 +386,16 @@
             android:text="Add"
             android:textColor="#FFFFFF"
             android:textSize="17sp" />
+=======
+            android:layout_height="38dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="70dp"
+            android:text="Add"
+            android:background="@drawable/menubutton"
+            android:backgroundTint="#3A3B3C"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"/>
+>>>>>>> ad0792cd3e2f6329347bb80b3f87336f929c2456
 
 
 
