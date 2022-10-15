@@ -26,19 +26,19 @@
 
         <ImageView
             android:id="@+id/profile"
-            android:layout_width="43dp"
-            android:layout_height="41dp"
-            android:layout_marginStart="300dp"
+            android:layout_width="53dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="280dp"
             android:background="@drawable/ic_baseline_person_24"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF" />
 
         <ImageView
             android:id="@+id/menu"
-            android:layout_width="39dp"
-            android:layout_height="48dp"
-            android:layout_marginStart="350dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="340dp"
             android:background="@drawable/ic_baseline_menu_24"
-            android:backgroundTint="#FFFFFF"/>
+            android:backgroundTint="#FFFFFF" />
     </com.google.android.material.navigation.NavigationView>
 
     <androidx.cardview.widget.CardView
