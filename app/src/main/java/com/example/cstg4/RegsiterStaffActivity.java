@@ -26,9 +26,10 @@ public class RegsiterStaffActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_regsiter_staff);
 
-        editTextTextPersonName = findViewById(R.id.editTextTextPersonName);
-        regisEmail = findViewById(R.id.regisEmail);
-        regisPass = findViewById(R.id.regisPass);
+        getIntent();
+        editTextTextPersonName = findViewById(R.id.nameId);
+        regisEmail = findViewById(R.id.eId);
+        regisPass = findViewById(R.id.passId);
 
         btn=findViewById(R.id.reg_Id);
         btn.setOnClickListener(new View.OnClickListener() {
